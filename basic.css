@@ -161,7 +161,7 @@ section#banner>header>p {
 
     header>h1 {
         font-family: 'Poppins', sans-serif;
-        background-image: url("../../images/header.jpg");
+        background-image: url("./images/header.jpg");
 
     }
 
@@ -172,7 +172,7 @@ section#banner>header>p {
         background-color: rgb(0, 0, 0, .7);
         color: aliceblue;
         padding: .3rem 2rem;
-        background-image: url("../../images/header.jpg");
+        background-image: url("./images/header.jpg");
 
 
     }
