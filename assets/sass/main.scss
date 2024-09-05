@@ -1406,11 +1406,11 @@
 
 		/* Nav */
 
-			#page-wrapper {
-				@include vendor('backface-visibility', 'hidden');
-				@include vendor('transition', 'transform #{_duration(navPanel)} ease');
-				padding-bottom: 1px;
-			}
+			// #page-wrapper {
+			// 	@include vendor('backface-visibility', 'hidden');
+			// 	@include vendor('transition', 'transform #{_duration(navPanel)} ease');
+			// 	padding-bottom: 1px;
+			// }
 
 			#navButton {
 				@include vendor('backface-visibility', 'hidden');
@@ -1645,9 +1645,15 @@
 				}
 
 				article {
-					width: 14em;
-					padding-bottom: 2em;
-					margin: 0 0.5em 0 0;
+					width: 18em; /* Adjust the width if needed */
+        			height: 20em; /* Add or modify this line to set the height */
+        			margin: 0 2em 0 0; /* Adjust the margin if needed */
+        			padding-bottom: 3em; /* You can adjust the padding as well */
+        			background: #fff;
+        			text-align: center;
+
+        			/* If you want to restrict the content inside to fit the height */
+        			overflow: hidden;
 
 					.image {
 						margin-bottom: 2em;
@@ -1656,3 +1662,20 @@
 			}
 
 	}
+
+	@include breakpoint('<=normal') {
+		.carousel {
+			article {
+				height: 15em; /* Set different height for normal screens */
+			}
+		}
+	}
+	
+	@include breakpoint('<=mobile') {
+		.carousel {
+			article {
+				height: 10em; /* Set different height for mobile screens */
+			}
+		}
+	}
+	

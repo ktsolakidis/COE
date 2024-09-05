@@ -2521,10 +2521,14 @@ input, select, textarea {
     white-space: nowrap; /* Prevent wrapping of items */
 }
 
+#ar1,#ar2,#ar3{
+	height: 5rem;
+}
+
 .carousel article {
     flex: 0 0 auto; /* Do not grow, do not shrink, and maintain width */
     width: 18em; /* Fixed width */
-    min-height: 33em; /* Fixed minimum height */
+    min-height: 10em; /* Fixed minimum height */
     display: flex; /* Use flexbox for articles */
     flex-direction: column; /* Arrange content vertically */
     align-items: center; /* Center items horizontally */
@@ -2959,7 +2963,7 @@ input, select, textarea {
 						border-radius: 0 0 0.35em 0.35em;
 					}
 
-			#navPanel {
+			/* #navPanel {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -3065,7 +3069,7 @@ input, select, textarea {
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
 				transform: translateY(0);
-			}
+			} */
 
 		/* Wrapper */
 
