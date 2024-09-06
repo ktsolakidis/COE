@@ -3223,4 +3223,33 @@ input, select, textarea {
 
 
 
- 
+@media only screen and (max-width: 768px) {
+
+	#header{
+		
+	}
+
+	#header header {
+		font-size: .5rem;
+		width: 20rem;
+		margin: auto;
+		margin-top: -4rem;
+
+	}
+
+	#header header p{
+	
+		
+	}
+
+	#background{
+		width: 60vh;
+		margin-top: -10rem;
+	}
+
+	#header .button{
+		height: 2rem;
+		line-height: 2rem;
+		margin-top: 1rem;
+	}
+}
