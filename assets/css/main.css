@@ -1788,6 +1788,8 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+			height: 10rem;
+			object-fit:cover;
 		}
 
 		.image.fit {
@@ -2198,17 +2200,24 @@ input, select, textarea {
 			position: relative;
 			z-index: 1;
 			margin: 0;
+			margin-top: 6rem;
 			display: inline-block;
 			vertical-align: middle;
+			width: 60em;
 		}
 
 		#header header {
-			display: inline-block;
+			display: flex;
+			flex-direction: row;
+			width: auto;
+			
 		}
 
 			#header header > p {
-				font-size: 1.25em;
+				padding: 1rem;
+				font-size: 1em;
 				margin: 0;
+				width: 100%;
 			}
 
 		#header h1 {
@@ -2223,13 +2232,15 @@ input, select, textarea {
 
 		#header .button {
 			display: inline-block;
-			border-radius: 100%;
-			width: 4.5em;
-			height: 4.5em;
-			line-height: 4.5em;
+			/* border-radius: 100%; */
+			width: 7.5em;
+			height: 2.5em;
+			line-height: 2.5em;
 			text-align: center;
-			font-size: 1.25em;
+			vertical-align: center;
+			font-size: 1em;
 			padding: 0;
+			margin-top: 3em;
 		}
 
 		#header hr {
@@ -2521,9 +2532,25 @@ input, select, textarea {
     white-space: nowrap; /* Prevent wrapping of items */
 }
 
-#ar1,#ar2,#ar3{
-	height: 12em;
+#ar1,#ar2,#ar3,#ar4,#ar5,#ar6,#ar7{
+	height: 20em;
+	width: 10em;
 }
+
+#ar11,#ar22,#ar33,#ar44,#ar55{
+	height: 35em;
+	width: 15em;
+}
+
+#ar11 img,#ar22 img,#ar33 img,#ar44 img,#ar55 img{
+	height: 20em;
+	width: 15em;
+}
+
+
+
+
+
 
 .carousel article {
     flex: 0 0 auto; /* Do not grow, do not shrink, and maintain width */
@@ -3175,3 +3202,25 @@ input, select, textarea {
 					}
 
 	}
+
+
+#background{
+	margin-top: 5vh;
+}
+
+
+#fcontainer{
+    width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#contact--footer{
+	padding: 0;
+}
+
+
+
+ 

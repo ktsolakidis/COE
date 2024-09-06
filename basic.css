@@ -223,3 +223,15 @@ section#banner>header>p {
 
 
 }
+
+
+#schrolarship{
+    height: 100%;
+}
+
+
+#f1,#f2{
+    width: 70%;
+    margin-top: 2rem;
+
+}
