@@ -88,6 +88,8 @@ header>p {
 section#banner>header>p {
     color: white;
     font-weight: 300;
+    padding:  3rem;
+    font: 2rem;
 }
 
 
